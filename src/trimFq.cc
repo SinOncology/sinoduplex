@@ -5,7 +5,7 @@
 #include <getopt.h>
 #include "htslib/kseq.h"
 #include "htslib/kstring.h"
-#include "sinotools.h"
+
 #include "trimFq.h"
 
 

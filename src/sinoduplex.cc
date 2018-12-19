@@ -1,6 +1,6 @@
 #include <stdlib.h>
 #include <iostream>
-#include "sinotools.h"
+#include "sinoduplex.h"
 #include "trimFq.h"
 #include "SinoExecutable.h"
 #include "Duplex_Consensus.h"

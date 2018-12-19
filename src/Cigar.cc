@@ -872,6 +872,7 @@ std::string Cigar::getCigarExpandedStringFromRefPosContainSoft(int32_t start, in
   int endExpandedCigarIndex = getExpandedCigarIndexFromRefPosContainSoft(end, queryStartPos);
   if (startExpandedCigarIndex)
     return myExpandedCigar.substr(startExpandedCigarIndex, endExpandedCigarIndex - startExpandedCigarIndex + 1);
+  return "";
 }
 
 void Cigar::getQueryIndexVecContainSoft(std::vector<int32_t> &queryIndexVec)

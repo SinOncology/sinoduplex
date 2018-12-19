@@ -659,6 +659,7 @@ std::string BamAlignment::getSubExpandedCigarFromRefPos(int32_t refStartPos, int
     subExpandedCigar = expandedCigar.substr(startCigarIndex, endCigarIndex - startCigarIndex + 1);
     return subExpandedCigar;
   }
+  return subExpandedCigar;
 }
 
 long BamAlignment::getAlignmentStartContainSoft()

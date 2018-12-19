@@ -5,6 +5,7 @@
 #include "trimFq.h"
 #include <zlib.h>
 #include <stdio.h>
+#include "sinoduplex.h"
 #endif //SINOTOOLS_TRIMFQ_H
 
 

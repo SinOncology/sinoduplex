@@ -1,5 +1,5 @@
 cmake_minimum_required(VERSION 2.8.8)
-set(PROJECT_NAME_STR sinotools)
+set(PROJECT_NAME_STR sinoduplex)
 project(${PROJECT_NAME_STR} C CXX)
 # external dependencies to be discovered:
 set(SAMTOOLS_DIR ${PROJECT_SOURCE_DIR}/thirdparty/samtools/samtools-1.3.1)
