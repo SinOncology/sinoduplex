@@ -30,7 +30,7 @@ void SinoExecutable::printSinoToolsVersion(std::ostream &os)
 
 void SinoExecutable::printSinoToolsDescription(std::ostream &os)
 {
-  os << " --- CaGe-A: Cancer Genome Scanner Analysis --- " << std::endl;
+  os << " --- sinotools --- " << std::endl;
   printSinoToolsVersion(os);
 }
 
