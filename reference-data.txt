@@ -1,8 +1,8 @@
-#Sinotools_version: 1.0.0
+#version: 1.0.0
 
-# the folder contains reference sequence per chromosome
-nib_folder=/mnt/pipeline-reference-data/hg_nib/hg19_nib_1
+# the folder contains reference sequence per chromosome in .nib format
+nib_folder=/PATH_TO_NIB_FOLDER
 
-# list of barcodes used in DS samples
-barcodes_file_sino=/mnt/pipeline-reference-data/reference_tables/barcode_tables/barcode_table_2/sino_barcodes.txt
-barcodes_file_idt=/mnt/pipeline-reference-data/reference_tables/barcode_tables/barcode_table_2/IDT_barcodes_v1.txt
+# files contain duplex barcode sequences
+barcodes_file_sino=/FILE_PATH_TO_BARCODE_1
+barcodes_file_idt=/FILE_PATH_TO_BARCODE_2
